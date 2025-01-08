@@ -1,11 +1,11 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
-import Calculator from "./comp/calculator";
+import MyComponent from "./comp/StartPage";
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Calculator />
+      <MyComponent />
     </SafeAreaView>
   );
 };
